@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+}
+.ft-to-in, .ml-to-oz, .cm-to-in {
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    border: 1px solid;
+    width:25%;
+    display: inline-block;
+}

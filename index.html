@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Conversion Website</h1>
+
+    <div class="ft-to-in">
+        <h3>Feet to Inches</h3>
+        <input class="feetInput" type="number" placeholder="ft" max="10" min="0" oninput="feetToInch(this.value)">
+        <input class="inchInput" type="number" placeholder="in" max="11" min="0" oninput="addInch(this.value)">
+        <p>=</p>
+        <p class="feetInchResult"></p>
+    </div>    
+
+    <div class="ml-to-oz">
+        <h3>Mililiters to Ounces</h3>
+        <input class="mlInput" type="number" placeholder="ml" min="0" oninput="mlToOz(this.value)">
+        <label for="">Mililiter</label>
+        <p>=</p>
+        <input class="ozInput" type="number" placeholder="oz" min="0">
+        <label for=""> US Fluid Ounce </label>
+    </div>
+
+    <div class="cm-to-in">
+        <h3>Centimeters to Inches</h3>
+        <input class="cmInput" type="number" placeholder="cm" min="0" oninput="cmToIn(this.value)">
+        <label for="">Centimeter</label>
+        <p>=</p>
+        <input class="inchResult" type="number" placeholder="in">
+        <label for="">Inch</label>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
