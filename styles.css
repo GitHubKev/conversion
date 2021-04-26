@@ -1,11 +1,10 @@
 .title{
     text-align: center;
 }
-.ft-to-in, .ml-to-oz, .cm-to-in {
+.ft-to-in, .ml-to-oz, .cm-to-in, .kg-to-lb{
     margin-bottom: 5%;
-    padding-bottom: 3%;
-    padding-left: 3%;
+    padding: 3%;
     border: 1px solid;
-    width:25%;
+    width: 25%;
     display: inline-block;
 }

@@ -12,16 +12,16 @@
 
     <div class="ft-to-in">
         <h3>Feet to Inches</h3>
-        <input class="feetInput" type="number" placeholder="ft" max="10" min="0" oninput="feetToInch(this.value)">
-        <input class="inchInput" type="number" placeholder="in" max="11" min="0" oninput="addInch(this.value)">
-        <p>=</p>
+        <input class="feetInput" type="number" placeholder="ft" max="10" min="0" oninput="feetToInch(feetInput.value)">
+        <input class="inchInput" type="number" placeholder="in" max="11" min="0" oninput="feetToInch(inchInput.value)">
+        <p class="equals">=</p>
         <p class="feetInchResult"></p>
     </div>    
 
     <div class="ml-to-oz">
         <h3>Mililiters to Ounces</h3>
         <input class="mlInput" type="number" placeholder="ml" min="0" oninput="mlToOz(this.value)">
-        <label for="">Mililiter</label>
+        <label for="">Milliliter</label>
         <p>=</p>
         <input class="ozInput" type="number" placeholder="oz" min="0">
         <label for=""> US Fluid Ounce </label>
@@ -36,6 +36,14 @@
         <label for="">Inch</label>
     </div>
 
+    <div class="kg-to-lb">
+        <h3>Kilogram to Pounds</h3>
+        <input class="kgInput" type="number" placeholder="kg" min="0" oninput="kgToLb(this.value)">
+        <label for="">Kilogram</label>
+        <p>=</p>
+        <input class="lbInput" type="number" placeholder="lb" min="0" oninput="lbToKg(this.value)">
+        <label for="">Pound</label>
+    </div>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
