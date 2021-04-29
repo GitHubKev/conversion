@@ -3,8 +3,17 @@
 }
 .ft-to-in, .ml-to-oz, .cm-to-in, .kg-to-lb{
     margin-bottom: 5%;
-    padding: 3%;
+    padding: 2%;
     border: 1px solid;
     width: 25%;
     display: inline-block;
+}
+input{
+    height: 30px;
+}
+input[type=number]{
+    font-size: 20px;
+}
+.feetInchResult{
+    font-size: 2rem;
 }
